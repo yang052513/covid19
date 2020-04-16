@@ -1,9 +1,11 @@
 import React from "react"
 function CaseItem(props) {
   return (
-    <div classname="case-item">
-      <p>{props.count}</p>
-      <p>{props.caption}</p>
+    <div className="case-item">
+      <p style={props.color} className="case-cnt">
+        {props.count}
+      </p>
+      <p className="case-caption">{props.caption}</p>
     </div>
   )
 }

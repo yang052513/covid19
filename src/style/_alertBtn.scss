@@ -1,0 +1,11 @@
+.alert-btn {
+  i {
+    margin-right: 5px;
+  }
+  color: $primaryColor;
+  background-color: $secondaryColor;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 3px 8px;
+  margin: 20px 0;
+}

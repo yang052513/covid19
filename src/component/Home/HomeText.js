@@ -1,12 +1,11 @@
 import React from "react"
 import ReadBtn from "../ReadBtn"
+import Tag from "../Tag"
 
 function HomeText() {
   return (
     <div className="hometext-container">
-      <button className="alert-btn">
-        <i class="fas fa-exclamation-circle"></i>Covid-19 警报
-      </button>
+      <Tag icon={"fas fa-exclamation-circle"} text={"Covid-19 警报"} />
       <h2>新冠病毒的认知与防护</h2>
 
       <p>

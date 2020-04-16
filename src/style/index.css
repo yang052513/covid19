@@ -43,15 +43,6 @@
   margin: 20px 130px;
 }
 
-.home-container .hometext-container .alert-btn {
-  color: #ff5c5c;
-  background-color: #fedede;
-  border-radius: 25px;
-  border: 1px solid rgba(0, 0, 0, 0);
-  padding: 3px 8px;
-  margin: 20px 0;
-}
-
 .home-container .hometext-container h2 {
   font-size: 60px;
   margin: 30px 0;
@@ -89,6 +80,122 @@
 
 .read-btn:focus {
   outline: none;
+}
+
+.case-wrap {
+  background-color: white;
+  -webkit-box-shadow: 3px 7px 10px 2px rgba(0, 0, 0, 0.43);
+          box-shadow: 3px 7px 10px 2px rgba(0, 0, 0, 0.43);
+  margin: 20px 130px;
+  height: 150px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.case-wrap .case-source {
+  text-align: center;
+  font-family: title;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.case-wrap .case-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.case-wrap .case-container .case-item {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+.case-wrap .case-container .case-item .case-cnt {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.case-wrap .case-container .case-item .case-caption {
+  font-family: title;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.alert-btn {
+  color: #ff5c5c;
+  background-color: #fedede;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 3px 8px;
+  margin: 20px 0;
+}
+
+.alert-btn i {
+  margin-right: 5px;
+}
+
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 130px;
+}
+
+.content-container img {
+  width: auto;
+  height: 40vw;
+}
+
+.content-container .text-container {
+  font-family: title;
+  margin-left: 50px;
+}
+
+.content-container .text-container h3 {
+  font-size: 40px;
+}
+
+.content-container .text-container p {
+  font-size: 19px;
+  line-height: 1.6em;
+  margin: 25px 0;
+}
+
+.content-container .text-container .symptom-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 80%;
+  margin: 25px 0;
+}
+
+.content-container .text-container .symptom-list li {
+  list-style-type: none;
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.content-container .text-container .symptom-list li i {
+  margin-right: 10px;
+  color: #5adf4e;
 }
 
 @font-face {
