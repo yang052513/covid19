@@ -4,7 +4,7 @@ import HomeText from "./Home/HomeText"
 
 function Home() {
   return (
-    <div>
+    <div className="home-container">
       <HomeText />
       <HomeImage />
     </div>

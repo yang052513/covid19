@@ -1,0 +1,23 @@
+$primaryColor: rgb(255, 92, 92);
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: cnFont;
+  margin: 20px 0;
+  li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 30px;
+    font-size: 25px;
+    font-family: title;
+    transition: all 0.5s;
+    &:hover {
+      color: $primaryColor;
+      font-size: 30px;
+      cursor: pointer;
+    }
+  }
+}

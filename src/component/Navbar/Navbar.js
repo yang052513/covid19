@@ -2,7 +2,7 @@ import React from "react"
 
 function Navbar() {
   return (
-    <div>
+    <div className="navbar">
       <ul>
         <li>主页</li>
         <li>简介</li>

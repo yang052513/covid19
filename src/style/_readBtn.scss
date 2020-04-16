@@ -1,0 +1,23 @@
+$primaryColor: rgb(255, 92, 92);
+$secondaryColor: rgb(254, 222, 222);
+
+.read-btn {
+  font-size: 25px;
+  font-family: title;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: $primaryColor;
+  color: white;
+  border-radius: 25px;
+  padding: 10px 40px;
+  margin: 20px 0;
+  transition: all 0.5s;
+  &:hover {
+    color: $primaryColor;
+    background: white;
+    border: 1px solid $primaryColor;
+  }
+  &:focus {
+    outline: none;
+  }
+}
