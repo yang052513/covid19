@@ -18,28 +18,28 @@ function Symptom() {
         <p>疾控中心指出，新型冠状病毒的症状包括: </p>
         <ul className="symptom-list">
           <li>
-            <i class="fas fa-check-circle"></i>发热
+            <i className="fas fa-check-circle"></i>发热
           </li>
           <li>
-            <i class="fas fa-check-circle"></i>四肢乏力
+            <i className="fas fa-check-circle"></i>四肢乏力
           </li>
           <li>
-            <i class="fas fa-check-circle"></i>干咳
+            <i className="fas fa-check-circle"></i>干咳
           </li>
           <li>
-            <i class="fas fa-check-circle"></i>头痛
+            <i className="fas fa-check-circle"></i>头痛
           </li>
           <li>
-            <i class="fas fa-check-circle"></i>咽痛
+            <i className="fas fa-check-circle"></i>咽痛
           </li>
           <li>
-            <i class="fas fa-check-circle"></i>呼吸困难
+            <i className="fas fa-check-circle"></i>呼吸困难
           </li>
           <li>
-            <i class="fas fa-check-circle"></i>持续性头痛
+            <i className="fas fa-check-circle"></i>持续性头痛
           </li>
           <li>
-            <i class="fas fa-check-circle"></i>意识混乱
+            <i className="fas fa-check-circle"></i>意识混乱
           </li>
         </ul>
         <ReadBtn />

@@ -1,19 +1,57 @@
-import React from "react"
+import React, { Component } from "react"
 
-function BlogItem() {
-  return (
-    <div className="blog-item">
-      <img src="image/sample.jpg" alt="news" />
+class BlogItem extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      opacity: 0,
+    }
+    this.handleOn = this.handleOn.bind(this)
+    this.handleOff = this.handleOff.bind(this)
+  }
 
-      <p className="blog-title">
-        New Jersey AG opens probe of nursing home deaths after finding 17 bodies
-        in facility hit by coronavirus - CNBC
-      </p>
-      <p className="blog-author">Noah Higgins-Dunn</p>
-      <p className="blog-source">CNBC</p>
-      <p className="blog-time">2020-04-16 T22:26:43Z</p>
-    </div>
-  )
+  handleOn() {
+    this.setState((prevState) => {
+      return {
+        opacity: 1,
+      }
+    })
+  }
+
+  handleOff() {
+    this.setState((prevState) => {
+      return {
+        opacity: 0,
+      }
+    })
+  }
+
+  render() {
+    let sampleImage =
+      this.props.article.urlToImage == ""
+        ? "image/sample.jpg"
+        : this.props.article.urlToImage
+    return (
+      <div
+        className="blog-item"
+        onMouseEnter={this.handleOn}
+        onMouseLeave={this.handleOff}
+      >
+        <img src={sampleImage} alt="news" />
+
+        <p className="blog-title">{this.props.article.title}</p>
+        <p className="blog-author">{this.props.article.author}</p>
+
+        <div
+          style={{ opacity: this.state.opacity }}
+          className="hover-container"
+        >
+          <div className="overlay"></div>
+          <a href={this.props.article.url}>查看原文</a>
+        </div>
+      </div>
+    )
+  }
 }
 
 export default BlogItem
