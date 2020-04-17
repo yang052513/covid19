@@ -4,6 +4,8 @@ import Home from "./Home"
 import Case from "./Case"
 import About from "./About"
 import Symptom from "./Symptom"
+import Spread from "./Spread"
+import Preventation from "./Preventation"
 import "../style/index.css"
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Case />
       <About />
       <Symptom />
+      <Spread />
+      <Preventation />
     </div>
   )
 }
