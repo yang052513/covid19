@@ -6,6 +6,7 @@ import About from "./About"
 import Symptom from "./Symptom"
 import Spread from "./Spread"
 import Preventation from "./Preventation"
+import Blog from "./Blog"
 import "../style/index.css"
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Symptom />
       <Spread />
       <Preventation />
+      <Blog />
     </div>
   )
 }

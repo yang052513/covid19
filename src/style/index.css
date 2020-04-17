@@ -301,6 +301,68 @@
   margin-left: 20px;
 }
 
+.blog-container {
+  margin: 50px 130px;
+  text-align: center;
+}
+
+.blog-container .blog-intro {
+  font-family: title;
+}
+
+.blog-container .blog-intro p {
+  font-size: 19px;
+  line-height: 1.6em;
+  margin: 25px 0;
+}
+
+.blog-container h3 {
+  font-size: 40px;
+}
+
+.blog-container .blog-item {
+  font-size: 14px;
+  width: 350px;
+  background-color: #f7b4b4;
+  padding-bottom: 50px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.blog-container .blog-item img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 350px;
+  height: auto;
+}
+
+.blog-container .blog-item .blog-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.blog-container .blog-item .blog-author {
+  text-align: left;
+  margin-top: 10px;
+  color: #989898;
+}
+
+.blog-container .blog-item .blog-time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+}
+
+.blog-container .blog-item .blog-source {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+}
+
 @font-face {
   font-family: title;
   src: url("../font/FZLTCXHJW.TTF");
