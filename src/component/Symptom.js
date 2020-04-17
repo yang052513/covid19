@@ -8,7 +8,7 @@ function Symptom() {
   return (
     <div className="content-container">
       <div className="text-container">
-        <Tag icon={"fas fa-user-friends"} text={"新冠病毒症状"} />
+        <Tag icon={"fas fa-pills"} text={"新冠病毒症状"} />
         <Title text={"新型冠状病毒有哪些症状？"} />
         <Description
           text={
@@ -42,7 +42,7 @@ function Symptom() {
             <i className="fas fa-check-circle"></i>意识混乱
           </li>
         </ul>
-        <ReadBtn />
+        <ReadBtn text={"传播途径"} />
       </div>
       <img src="image/symptom.png" alt="virus" />
     </div>

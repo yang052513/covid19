@@ -36,7 +36,7 @@ function Spread() {
           }
         />
       </div>
-      <ReadBtn />
+      <ReadBtn text={"预防措施"} />
     </div>
   )
 }

@@ -43,22 +43,22 @@ class Case extends Component {
           <CaseItem
             count={this.state.country}
             caption={"疫情国家"}
-            color={{ color: "blue" }}
+            color={{ color: "#ffaf47" }}
           />
           <CaseItem
             count={this.state.confirmed}
             caption={"确诊案例"}
-            color={{ color: "purple" }}
+            color={{ color: "#cb44fc" }}
           />
           <CaseItem
             count={this.state.recovered}
             caption={"恢复案例"}
-            color={{ color: "green" }}
+            color={{ color: "#44fc7e" }}
           />
           <CaseItem
             count={this.state.death}
             caption={"死亡人数"}
-            color={{ color: "red" }}
+            color={{ color: "#fc4444" }}
           />
         </div>
         <p className="case-source">

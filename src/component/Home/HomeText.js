@@ -11,7 +11,7 @@ function HomeText() {
       <p>
         新型冠状病毒肺炎是一种急性感染性肺炎，其病原体是一种先前未在人类中发现的新型冠状病毒
       </p>
-      <ReadBtn />
+      <ReadBtn text={"查看症状"} />
     </div>
   )
 }

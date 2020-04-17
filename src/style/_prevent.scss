@@ -26,6 +26,11 @@
       align-items: center;
       padding: 10px 0;
       margin: 10px 0;
+      transition: all 0.5s;
+      &:hover {
+        transform: translateY(-10px);
+        color: rgb(247, 152, 152);
+      }
       h4 {
         font-size: 20px;
         margin-top: 20px;

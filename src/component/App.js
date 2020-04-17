@@ -4,11 +4,13 @@ import Navbar from "./Navbar/Navbar"
 import Home from "./Home"
 import Case from "./Case"
 import Chart from "./Chart"
+import Country from "./Country"
 import About from "./About"
 import Symptom from "./Symptom"
 import Spread from "./Spread"
 import Preventation from "./Preventation"
 import Blog from "./Blog"
+import Footer from "./Footer"
 import "../style/index.css"
 
 class App extends Component {
@@ -38,12 +40,14 @@ class App extends Component {
         <Navbar />
         <Home />
         <Case />
+        <Country handleCountryChange={this.handleCountryChange} />
         <Chart data={this.state.data} country={this.state.country} />
         <About />
         <Symptom />
         <Spread />
         <Preventation />
         <Blog />
+        <Footer />
       </div>
     )
   }
