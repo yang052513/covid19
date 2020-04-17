@@ -419,6 +419,12 @@
   background-color: #f96666;
 }
 
+.chart-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
 @font-face {
   font-family: title;
   src: url("../font/FZLTCXHJW.TTF");

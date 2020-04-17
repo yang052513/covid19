@@ -28,7 +28,7 @@ class BlogItem extends Component {
 
   render() {
     let sampleImage =
-      this.props.article.urlToImage == ""
+      this.props.article.urlToImage === ""
         ? "image/sample.jpg"
         : this.props.article.urlToImage
     return (
