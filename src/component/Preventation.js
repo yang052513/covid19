@@ -6,7 +6,7 @@ import PreventItem from "./Preventation/PrevenItem"
 
 function Preventation() {
   return (
-    <div className="prevent-container">
+    <div className="prevent-container" data-aos="fade-up">
       <div className="prevent-intro">
         <Tag icon={"fas fa-syringe"} text={"预防措施"} />
         <Title text={"世卫组织预防建议"} />

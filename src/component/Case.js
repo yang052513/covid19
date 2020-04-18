@@ -38,7 +38,7 @@ class Case extends Component {
 
   render() {
     return (
-      <div className="case-wrap">
+      <div className="case-wrap" data-aos="fade-up">
         <div className="case-container">
           <CaseItem
             count={this.state.country}

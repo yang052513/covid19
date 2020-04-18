@@ -4,7 +4,7 @@ import Tag from "../Tag"
 
 function HomeText() {
   return (
-    <div className="hometext-container">
+    <div className="hometext-container" data-aos="fade-up">
       <Tag icon={"fas fa-exclamation-circle"} text={"Covid-19 警报"} />
       <h2>新冠病毒的认知与防护</h2>
 

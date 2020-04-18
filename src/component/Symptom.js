@@ -6,7 +6,7 @@ import Tag from "./Tag"
 
 function Symptom() {
   return (
-    <div className="content-container">
+    <div className="content-container" data-aos="fade-up">
       <div className="text-container">
         <Tag icon={"fas fa-pills"} text={"新冠病毒症状"} />
         <Title text={"新型冠状病毒有哪些症状？"} />

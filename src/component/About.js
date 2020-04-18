@@ -6,7 +6,7 @@ import Tag from "./Tag"
 
 function About() {
   return (
-    <div className="content-container">
+    <div className="content-container" data-aos="fade-up">
       <img src="image/about.png" alt="virus" />
       <div className="text-container">
         <Tag icon={"fas fa-question-circle"} text={"关于新冠病毒"} />

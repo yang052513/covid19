@@ -29,7 +29,7 @@
 
 #
 
-## <span id="04">Technology</span>
+## <span id="04">Tools</span>
 
 - HTML
 - Sass
@@ -37,9 +37,10 @@
 - React
 - Node.js
 - News Org API
-- WHO API
+- mathdroid API
 - chart.js
 - Firebase
+- AOS.js
 
 #
 

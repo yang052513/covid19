@@ -12,6 +12,7 @@ import Preventation from "./Preventation"
 import Blog from "./Blog"
 import Footer from "./Footer"
 import "../style/index.css"
+import AOS from "aos"
 
 class App extends Component {
   constructor() {
@@ -35,6 +36,12 @@ class App extends Component {
   }
 
   render() {
+    AOS.init({
+      offset: 200,
+      duration: 1000,
+      easing: "ease",
+      delay: 100,
+    })
     return (
       <div>
         <Navbar />

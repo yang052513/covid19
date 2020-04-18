@@ -37,7 +37,7 @@ class Blog extends Component {
 
     return (
       <div className="blog-container">
-        <div className="blog-intro">
+        <div className="blog-intro" data-aos="fade-up">
           <Tag icon={"fas fa-user-friends"} text={"相关资讯"} />
           <Title text={"新冠病毒的最新资讯"} />
           <Description text={localDate + " 新冠病毒相关的最新资讯"} />

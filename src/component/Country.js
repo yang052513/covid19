@@ -15,7 +15,7 @@ const Countries = ({ handleCountryChange }) => {
   }, [])
 
   return (
-    <div className="country-container">
+    <div className="country-container" data-aos="fade-up">
       <FormControl>
         <NativeSelect
           defaultValue=""

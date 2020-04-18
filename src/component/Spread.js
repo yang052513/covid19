@@ -7,7 +7,7 @@ import SpreadItem from "./Spread/SpreadItem"
 
 function Spread() {
   return (
-    <div className="spread-container">
+    <div className="spread-container" data-aos="fade-left">
       <Tag icon={"fas fa-user-friends"} text={"传播途径"} />
       <Title text={"新冠病毒是如何传播的？"} />
       <Description
