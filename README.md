@@ -1,6 +1,6 @@
 # COVID-19
 
-> covid-19-eb48e.firebaseapp.com
+> https://covid-19-eb48e.firebaseapp.com
 
 ## Table of Contents
 
