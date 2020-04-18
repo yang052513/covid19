@@ -6,8 +6,8 @@ import Tag from "./Tag"
 
 function Symptom() {
   return (
-    <div className="content-container" data-aos="fade-up">
-      <div className="text-container">
+    <div className="content-container">
+      <div className="text-container" data-aos="fade-up">
         <Tag icon={"fas fa-pills"} text={"新冠病毒症状"} />
         <Title text={"新型冠状病毒有哪些症状？"} />
         <Description
@@ -15,8 +15,8 @@ function Symptom() {
             "存在携带病毒但不发病的隐性感染者，但患者最有可能在 2 到 14 天之间出现症状。"
           }
         />
-        <p>疾控中心指出，新型冠状病毒的症状包括: </p>
-        <ul className="symptom-list">
+        <p data-aos="fade-up">疾控中心指出，新型冠状病毒的症状包括: </p>
+        <ul data-aos="fade-up" className="symptom-list">
           <li>
             <i className="fas fa-check-circle"></i>发热
           </li>
@@ -44,7 +44,7 @@ function Symptom() {
         </ul>
         <ReadBtn text={"传播途径"} />
       </div>
-      <img src="image/symptom.png" alt="virus" />
+      <img data-aos="fade-up" src="image/symptom.png" alt="virus" />
     </div>
   )
 }

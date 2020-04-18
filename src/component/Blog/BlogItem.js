@@ -36,6 +36,7 @@ class BlogItem extends Component {
         className="blog-item"
         onMouseEnter={this.handleOn}
         onMouseLeave={this.handleOff}
+        data-aos="fade-up"
       >
         <img src={sampleImage} alt="news" />
 

@@ -2,7 +2,7 @@ import React from "react"
 
 function PreventItem(props) {
   return (
-    <div className="prevent-item">
+    <div className="prevent-item" data-aos="fade-up">
       <img src={props.image} alt="service" />
       <div>
         <h4>{props.title}</h4>
