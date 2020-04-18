@@ -14,7 +14,7 @@ class Blog extends Component {
 
   componentDidMount() {
     let url =
-      "http://newsapi.org/v2/top-headlines?" +
+      "https://newsapi.org/v2/top-headlines?" +
       "q=Coronavirus&" +
       "sortBy=popularity&" +
       "apiKey=6cb597ddd50f4a468d2c0f19ec397a74"

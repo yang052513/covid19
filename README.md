@@ -1,6 +1,6 @@
 # COVID-19
 
-> hosting link
+> covid-19-eb48e.firebaseapp.com
 
 ## Table of Contents
 
