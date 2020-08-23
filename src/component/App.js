@@ -1,25 +1,25 @@
-import React, { Component } from "react"
-import { fetchData } from "./Api"
-import Navbar from "./Navbar/Navbar"
-import Home from "./Home"
-import Case from "./Case"
-import Chart from "./Chart"
-import Country from "./Country"
-import About from "./About"
-import Symptom from "./Symptom"
-import Spread from "./Spread"
-import Preventation from "./Preventation"
-import Blog from "./Blog"
-import Footer from "./Footer"
-import "../style/index.css"
-import AOS from "aos"
+import React, { Component } from 'react'
+import { fetchData } from './Api'
+import Navbar from './Navbar/Navbar'
+import Home from './Home'
+import Case from './Case'
+import Chart from './Chart'
+import Country from './Country'
+import About from './About'
+import Symptom from './Symptom'
+import Spread from './Spread'
+import Preventation from './Preventation'
+import Blog from './Blog'
+import Footer from './Footer'
+import '../style/index.css'
+import AOS from 'aos'
 
 class App extends Component {
   constructor() {
     super()
     this.state = {
       data: {},
-      country: "",
+      country: '',
     }
   }
 
@@ -29,7 +29,7 @@ class App extends Component {
     this.setState({ data })
   }
 
-  handleCountryChange = async (country) => {
+  handleCountryChange = async country => {
     const data = await fetchData(country)
 
     this.setState({ data, country: country })
@@ -39,7 +39,7 @@ class App extends Component {
     AOS.init({
       offset: 200,
       duration: 1000,
-      easing: "ease",
+      easing: 'ease',
       delay: 100,
     })
     return (
@@ -53,7 +53,7 @@ class App extends Component {
         <Symptom />
         <Spread />
         <Preventation />
-        <Blog />
+        {/* <Blog /> */}
         <Footer />
       </div>
     )
